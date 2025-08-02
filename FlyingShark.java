@@ -1,7 +1,7 @@
 class FlyingShark extends Shark implements Flyable{
     @Override
     public void fly(){
-        System.out.println("FlyingShark is gliding through the air! (I know it's impossible but who cares!)");
+        System.out.println("FlyingShark is gliding through the air!");
     }
     public void eat(Fish fish){
         System.out.println(this.toString()+"is eating" + fish.toString());
